@@ -1,0 +1,91 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+/* Sections style */
+@import url('./header.css');
+@import url('./vite-promo.css');
+@import url('./badges.css');
+@import url('./back-link.css');
+@import url('./footer.css');
+
+.container-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.card-info {
+  display: flex;
+  width: 360px;
+  height: 48px;
+  justify-content: space-between;
+}
+
+.card-container {
+  width: 200px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.search-input {
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.search-input::placeholder {
+  width: 138;
+  height: 24;
+  top: 8px;
+  left: 16px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+}
+
+.search-input::pressed {
+  border-color: #4e75ff;
+}
+
+.search-button {
+  width: 75px;
+  height: 40px;
+  top: 268px;
+  left: 28px;
+  border-radius: 8px;
+  gap: 10px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+}
+
+.search-bar {
+  display: flex;
+  margin: 12px auto;
+  gap: 24px;
+}
+
+.card-container {
+  width: 360px;
+  height: 200px;
+  border-width: 1px;
+}
+
+.card-container img {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+}
